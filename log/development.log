@@ -1,0 +1,63 @@
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2014-09-04 08:46:40) [GET]
+  Session ID: ae8cfd781ae17d59b3a3c77419ab8daa
+  Parameters: {"controller"=>"rails/info", "action"=>"properties"}
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2014-09-04 08:48:02) [GET]
+  Session ID: ae8cfd781ae17d59b3a3c77419ab8daa
+  Parameters: {"controller"=>"rails/info", "action"=>"properties"}
+
+
+ThreadError (current thread not owner):
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/monitor.rb:278:in `mon_check_owner'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/monitor.rb:224:in `exit'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/core_ext/kernel_require.rb:123:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:291:in `send'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:291:in `connection='
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:259:in `retrieve_connection'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/core_ext/kernel_require.rb:66:in `gem_original_require'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/core_ext/kernel_require.rb:66:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/rails-2.0.2/lib/commands/server.rb:39
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/core_ext/kernel_require.rb:66:in `gem_original_require'
+    /home/vincentvu/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/core_ext/kernel_require.rb:66:in `require'
+    server:3
+
+Rendering /home/vincentvu/.rvm/gems/ruby-1.8.7-head/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
